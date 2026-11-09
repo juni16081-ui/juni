@@ -1,5 +1,5 @@
 {
- "kst_now": "2026-11-09 09:54",
+ "kst_now": "2026-11-09 09:59",
  "kst_today": "2026-11-09",
  "items": {
   "kospi": {
@@ -15,7 +15,7 @@
    "dayhigh": 5269.10009765625,
    "daylow": 4911.27978515625,
    "dropped_partial": true,
-   "meta_price": 5077.42,
+   "meta_price": 5039.68,
    "short_name": "KOSPI Composite Index"
   },
   "kosdaq": {
@@ -31,7 +31,7 @@
    "dayhigh": 657.9500122070312,
    "daylow": 629.1699829101562,
    "dropped_partial": true,
-   "meta_price": 638.8,
+   "meta_price": 634.27,
    "short_name": "Kosdaq Composite Index"
   },
   "nasdaq": {
@@ -79,7 +79,7 @@
    "dayhigh": 196500.0,
    "daylow": 179200.0,
    "dropped_partial": true,
-   "meta_price": 192200.0,
+   "meta_price": 190600.0,
    "short_name": "SamsungElec"
   },
   "hynix": {
@@ -95,7 +95,7 @@
    "dayhigh": 1217000.0,
    "daylow": 1089000.0,
    "dropped_partial": true,
-   "meta_price": 1157000.0,
+   "meta_price": 1146000.0,
    "short_name": "SK hynix"
   },
   "nvda": {
@@ -108,7 +108,7 @@
    "prev": 181.60000610351562,
    "prev_date": "2026-11-05",
    "hi52": 243.3699951171875,
-   "dayhigh": 194.89999389648438,
+   "dayhigh": 194.89500427246094,
    "daylow": 185.22000122070312,
    "dropped_partial": false,
    "meta_price": 186.64,
@@ -156,7 +156,7 @@
    "prev": 733.0,
    "prev_date": "2026-11-05",
    "hi52": 781.6199951171875,
-   "dayhigh": 742.2100219726562,
+   "dayhigh": 742.2103881835938,
    "daylow": 734.5800170898438,
    "dropped_partial": false,
    "meta_price": 735.29,
@@ -173,7 +173,7 @@
    "prev_date": "2026-11-05",
    "hi52": 762.8599853515625,
    "dayhigh": 664.52001953125,
-   "daylow": 653.989990234375,
+   "daylow": 654.0,
    "dropped_partial": false,
    "meta_price": 656.1,
    "short_name": "Invesco QQQ Trust, Series 1"
@@ -188,7 +188,7 @@
    "prev": 72.2699966430664,
    "prev_date": "2026-11-05",
    "hi52": 101.62000274658203,
-   "dayhigh": 75.94999694824219,
+   "dayhigh": 75.93000030517578,
    "daylow": 73.61000061035156,
    "dropped_partial": false,
    "meta_price": 74.11,
@@ -205,7 +205,7 @@
    "prev_date": "2026-11-05",
    "hi52": 88.08999633789062,
    "dayhigh": 54.16999816894531,
-   "daylow": 51.709999084472656,
+   "daylow": 51.70500183105469,
    "dropped_partial": false,
    "meta_price": 52.25,
    "short_name": "ProShares UltraPro QQQ"
@@ -220,7 +220,7 @@
    "prev": 343.69000244140625,
    "prev_date": "2026-11-05",
    "hi52": 498.8299865722656,
-   "dayhigh": 363.8399963378906,
+   "dayhigh": 363.8398132324219,
    "daylow": 347.6000061035156,
    "dropped_partial": false,
    "meta_price": 358.22,
@@ -271,7 +271,7 @@
    "dayhigh": 1364.719970703125,
    "daylow": 1350.8299560546875,
    "dropped_partial": true,
-   "meta_price": 1360.48,
+   "meta_price": 1359.68,
    "short_name": "USD/KRW"
   },
   "gold": {
@@ -280,14 +280,14 @@
    "symbol": "GC=F",
    "kind": "GOLD",
    "date": "2026-11-08",
-   "close": 4109.7998046875,
+   "close": 4099.2998046875,
    "prev": 4074.89990234375,
    "prev_date": "2026-11-06",
    "hi52": 5586.2001953125,
    "dayhigh": 4109.7998046875,
    "daylow": 4062.5,
    "dropped_partial": false,
-   "meta_price": 4109.8,
+   "meta_price": 4099.3,
    "short_name": "Gold Dec 26"
   },
   "schd": {
@@ -383,7 +383,7 @@
    "dayhigh": 15145.0,
    "daylow": 14055.0,
    "dropped_partial": true,
-   "meta_price": 14740.0,
+   "meta_price": 14630.0,
    "short_name": "KODEX 200 Target Weekly Covered"
   }
  },
@@ -391,26 +391,26 @@
   "btc": {
    "key": "btc",
    "name": "비트코인 BTC",
-   "close": 102788000.0,
+   "close": 102927000.0,
    "prev": 102460000.0,
    "hi52": 159150000.0,
-   "upbit_rate": 0.32012493
+   "upbit_rate": 0.45578762
   },
   "eth": {
    "key": "eth",
    "name": "이더리움 ETH",
-   "close": 2928000.0,
+   "close": 2935000.0,
    "prev": 2916000.0,
-   "hi52": 5430000.0,
-   "upbit_rate": 0.41152263
+   "hi52": 5401000.0,
+   "upbit_rate": 0.6515774999999999
   },
   "xrp": {
    "key": "xrp",
    "name": "리플 XRP",
-   "close": 1531.0,
+   "close": 1529.0,
    "prev": 1526.0,
-   "hi52": 3814.0,
-   "upbit_rate": 0.327654
+   "hi52": 3804.0,
+   "upbit_rate": 0.1965924
   }
  },
  "errors": []
