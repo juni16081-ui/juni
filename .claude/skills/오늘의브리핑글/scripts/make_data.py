@@ -72,6 +72,13 @@ def main():
     # 확인된 값을 <작업폴더>/override.json 에 {"usdkrw": {"close": 1341.0, "prev": 1346.0}} 로 주면 그 값을 쓴다.
     ov_path = out / "override.json"
     ov = json.loads(ov_path.read_text(encoding="utf-8")) if ov_path.exists() else {}
+    # 야후에 종가가 비어 있는 종목(예: 코스피·코스닥)은 확인된 값을 override.json 에 준다.
+    # 예: {"kospi": {"close": 5018.85, "prev": 5059.69, "date": "2026-11-09"}}
+    for k, v in ov.items():
+        if k != "usdkrw" and k in raw["items"]:
+            raw["items"][k].update(v)
+            notes.append(f'{raw["items"][k]["name"]}: override.json 수동 입력값 사용({v.get("date", "날짜 그대로")})')
+            (out / "raw.json").write_text(json.dumps(raw, ensure_ascii=False, indent=1), encoding="utf-8")  # 이미지·재확인이 같은 값을 쓰도록 반영
     if "usdkrw" in raw["items"]:
         fxi = raw["items"]["usdkrw"]
         if "usdkrw" in ov:
